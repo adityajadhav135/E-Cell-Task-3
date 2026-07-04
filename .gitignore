@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+models/memory/
+data/customers.json
+data/tickets.json
+data/interaction_logs.json
+data/cohort_analysis.json
+data/heart_scores.json
+data/agent_results.json
+*.log
+*.faiss
+*.pkl
+.idea/
+.vscode/
