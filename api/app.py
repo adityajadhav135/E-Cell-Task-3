@@ -1,4 +1,3 @@
-import json
 import sys
 import time
 from pathlib import Path
@@ -17,12 +16,11 @@ from crm import (
     get_all_customers, get_customer_by_id, create_customer,
     update_customer, delete_customer, get_customer_timeline,
     get_all_tickets, get_ticket_by_id, create_ticket,
-    update_ticket_status, get_tickets_by_customer,
-    get_tickets_by_status, get_crm_stats
+    update_ticket_status, get_tickets_by_status, get_crm_stats
 )
-from agents import summarize_ticket, route_ticket, run_agent_workflow, query_agent
-from memory import load_memory, add_to_long_term, chat_with_memory, summarize_memory, get_memory_stats
-from cohort import run_full_cohort_analysis, get_high_risk_customers, compute_churn_score
+from agents import summarize_ticket, route_ticket, query_agent
+from memory import load_memory, chat_with_memory, get_memory_stats
+from cohort import run_full_cohort_analysis, get_high_risk_customers
 from heart import compute_heart_scores
 
 

@@ -4,7 +4,7 @@ from pathlib import Path
 from datetime import datetime
 from typing import Optional
 
-DATA_DIR = Path("data")
+DATA_DIR = Path("../Data")
 CUSTOMERS_FILE = DATA_DIR / "customers.json"
 TICKETS_FILE = DATA_DIR / "tickets.json"
 LOGS_FILE = DATA_DIR / "interaction_logs.json"
